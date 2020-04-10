@@ -112,7 +112,7 @@ function getPlots() {
         var dropdown = d3.select("#selDataset");
     
         // read the data 
-        d3.json("Samples.json").then((data)=> {
+        d3.json("samples.json").then((data)=> {
             console.log(data)
     
             // get the id data to the dropdwown menu

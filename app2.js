@@ -82,10 +82,8 @@ function getPlots() {
         d3.json("samples.json").then((data)=> {
     // get the metadata info for the demographic panel
             var metadata = data.metadata;
-    
-            console.log(metadata)
-    
-          // filter meta data info by id
+                console.log(metadata)
+              // filter meta data info by id
            var result = metadata.filter(meta => meta.id.toString() === id)[0];
           // select demographic panel to put data
            var demographicInfo = d3.select("#sample-metadata");
@@ -124,5 +122,4 @@ function getPlots() {
             getDemoInfo(data.names[0]);
         });
     }
-    
     init();

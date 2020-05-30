@@ -63,8 +63,7 @@ function getPlots() {
                 xaxis:{title: "OTU ID"},
                 height: 600,
                 width: 1000,
-                //paper_bgcolor='rgb(243, 243, 243)',
-                //plot_bgcolor='rgb(243, 243, 243)'
+                
             };
     
             // creating data variable 
